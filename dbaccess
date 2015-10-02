@@ -7,9 +7,9 @@ case "$1" in
 		;;
 
 	info)
-        echo "Info: <div style=\"float:left;\"><a href=\"http://www.christian-luetgens.de/homematic/db-access/DB-Access.htm\" target=\"_blank\"><img src="../addons/db/yellow_teddybear_white.png" width="54" height="50"></a></div><div style=\"float:right;\"><b>DB-Access</b><br>Copyright 2011-2014<br>by Yellow Teddybear Software<br>licensed under GNU/GPL</div><div style=\"clear:both;\"></div>"
+        echo "Info: <div style=\"float:left;\"><a href=\"http://www.christian-luetgens.de/homematic/db-access/DB-Access.htm\" target=\"_blank\"><img src="../addons/db/yellow_teddybear_white.png" width="54" height="50"></a></div><div style=\"float:right;\"><b>DB-Access</b><br>Copyright 2011-2015<br>by Yellow Teddybear Software<br>licensed under GNU/GPL</div><div style=\"clear:both;\"></div>"
         echo "Name: DB-Access"
-        echo "Version: 2.0b2"
+        echo "Version: 2.0b3"
         echo "Operations: uninstall"
         ;;
 	uninstall)
