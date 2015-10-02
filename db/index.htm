@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>DB-Access</title>
+</head>
+<body>
+<h1>DB-Access</h1>
+
+<p>Weitere Informationen und Updates hier: <a href="http://www.christian-luetgens.de/homematic/db-access/DB-Access.htm" target="blank">http://www.christian-luetgens.de</a>.</p>
+
+<h3><a href="table.cgi" target="blank">http://ip-der-ccu/addons/db/table.cgi</a></h3>
+<p>Liefert eine Liste aller Datenpunkte und Systemvariablen mit ID, Name, Datenpunkt und aktuellem Wert. Auf meiner gut gefüllten CCU dauert die Abfrage etwa 4 Sekunden. Die Felder sind mit Tabulatoren getrennt, das Ergebnis kann dann weiterbearbeitet und z.B. am Stück in MySQL eingelesen werden.</p>
+<p>Es werden nur die Datenpunkte aufgelistet, die lesbare Werte haben. Handsender oder Tasterschnittstellen beispielsweise liefern keine Werte und sind daher in der Auflistung nicht vorhanden.</p>
+
+<h3><a href="state.cgi" target="blank">http://ip-der-ccu/addons/db/state.cgi</a></h3>
+<p>Liefert den Wert eines Objekts zurück und kann auch neue Werte setzen.</p>
+
+<h3><a href="objects.cgi" target="blank">http://ip-der-ccu/addons/db/objects.cgi</a></h3>
+<p>Liefert eine Gesamtliste aller Datenpunkte zurück ohne aktuelle Werte zurück.</p>
+
+<h3><a href="table.cgi" target="blank">http://ip-der-ccu/addons/db/values.cgi</a></h3>
+<p>Liefert - wie table.cgi - eine Liste aller Datenpunkte zurück, die einen Wert zurückliefern. Anders als table.cgi gibt es hier nur die ID zur Identifikation, über die die Klarnamen aus objects.cgi verknüpft werden können. Außerdem wird hier der Timestamp der letzten Änderung mitgeliefert.</p>
+</body>
+</html>
